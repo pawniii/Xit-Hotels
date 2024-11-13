@@ -1,3 +1,3 @@
 # Xit-Hotels
 # by Dixit Designs
-This project focuses on a sample layout of a website that shows you hotels based upon your destination idea.
+A simple, yet effective website built using HTML, CSS, and JavaScript to help users find hotels based on their desired location and preferences like state, union territory, city, or theme.

@@ -1,0 +1,137 @@
+
+.europe{
+    font-size: 22px;
+    margin-left: 95px;
+    margin-bottom: 35px;
+}
+.europe-hotels{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.hotel-images{
+    width: 220px;
+    height:100%;
+    background: rgb(239, 239, 239);
+    transition: filter 0.2s, box-shadow 0.2s;
+}
+.hotel-images:hover{
+  filter: brightness(110%);
+  box-shadow: 5px 5px 5px rgba(0,0 , 0,0.3);
+}
+
+.europe-text-1:hover{        
+  color:black;
+}
+
+.europe-img{
+    width: 100%;
+    height: 160px;
+    border-radius: 3px 3px 0 0;
+
+}
+.europe-text-1{
+    color: black;
+    font-size: 14px;
+    margin-left: 4px;
+    transition: color 0.15s;
+}
+.europe-text-1:hover{
+  color:black;
+}
+.europe-text-2{
+    color: black;
+    font-size: 18px;
+    margin-left: 4px;
+}
+.hotel-images a{
+    text-decoration: none;
+}
+
+.faqs {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #efefef;
+}
+.faq {
+  margin-bottom: 20px;
+}
+.faq-question {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.arrow {
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.arrow img{
+  width: 12px;
+  height: 12px;
+}
+.arrow.after{
+  transform: rotate(180deg);
+}
+.faq-answer {
+  background-color: #fff;
+  border: none;
+  /* display: none; */
+  overflow: hidden;
+  min-height: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #efefef;
+  overflow: hidden; 
+  transition: min-height 0.3s ease-in-out;
+
+.faq-answer.active {
+  min-height: 160px; 
+  /* display: block; */
+  transition: min-height 0.3s ease-in-out;
+}
+}.line {
+  height: 1px;
+  background-color: #ccc;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  /* width: 80%; */
+  transition: margin-bottom 0.3s ease-in-out; 
+}
+
+.line.active {
+  margin-bottom: 40px;
+}
+
+.p1{
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+  color:rgb(40, 40, 40);
+}
+ .p2{
+  text-align: center;
+  font-size: 14px;
+  color:rgb(53, 53, 53);
+ }
+.footer div{
+  font-size: 11px;
+  color:rgb(83, 83,83);
+}
+.footer{
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  justify-content: center;
+}
+.footer-line{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 90%;
+}
